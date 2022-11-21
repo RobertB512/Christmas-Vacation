@@ -1,0 +1,68 @@
+/* ########## RESETS ########## */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* ########## SHARED STYLES ########## */
+p, 
+a {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+button {
+  font-size: 1.6rem;
+}
+.flex-section {
+  display: flex;
+}
+
+/* ########## HEADINGS ########## */
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+/* ########## NAV STYLES ########## */
+nav {
+  background-color: #f55;
+  color: white;
+  align-items: center;
+  padding: 1.2rem 3rem;
+}
+.logo-img {
+  margin: 0 auto;
+  font-size: 4rem;
+}
+.right-nav {
+  margin-left: auto;
+}
+.nav-links {
+  gap: 2rem;
+}
+.nav-links a {
+  color: white;
+}
+.nav-links a:hover {
+  color: lightgreen;
+}
+.nav-links a:active {
+  color: white;
+}
+
+
+
+
