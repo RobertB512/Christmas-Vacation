@@ -19,22 +19,39 @@ ul {
   display: flex;
 }
 button {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  border-radius: 9999px;
+  border: none;
+  width: fit-content;
 }
 .flex-section {
   display: flex;
 }
+img {
+  height: 40rem;
+  width: auto;
+}
+
+
 
 /* ########## HEADINGS ########## */
+h1,
+h2,
+h3{
+  line-height: 4.5rem;
+}
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 h3 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
+
 
 /* ########## NAV STYLES ########## */
 nav {
@@ -80,7 +97,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
   position: absolute;
   top: 5rem;
   right: 5rem;
@@ -88,13 +105,8 @@ header {
   width: 50rem;
 }
 .header-container button {
-  display: inline-block;
-  width: 50%;
-  padding: 1rem 2rem;
-  border-radius: 9999px;
   background-color: darkblue;
   color: gold;
-  border: none;
 }
 .header-container button:hover {
   background-color: blue;
@@ -103,6 +115,44 @@ header {
   background-color: darkblue;
 }
 
+/* ########## ROOMS AREA STYLES ########## */
+
+.rooms-area {
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+  background-color: blue;
+  padding: 7rem;
+  color: white;
+}
 
 
+
+.rooms-area button {
+  background-color: darkgreen;
+  color: white; 
+}
+.rooms-area button:hover {
+  background-color: silver;
+  color: darkgreen;
+}
+.rooms-area button:active {
+  background-color: darkgreen;
+  color: white;
+}
+.room-options {
+  justify-content: center;
+  gap: 7rem;
+  
+}
+.room {
+  text-align: center;
+  color: white;
+}
+.room img {
+  margin-bottom: 3rem;
+  border: 2rem solid white;
+  border-radius: 1rem;
+}
 
