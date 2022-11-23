@@ -115,20 +115,20 @@ header {
   background-color: darkblue;
 }
 
-/* ########## ROOMS AREA STYLES ########## */
+/* ########## ROOMS AREA AND EVENTS BOX STYLES ########## */
 
-.rooms-area {
+.rooms-area, .event-box {
   flex-direction: column;
   gap: 3rem;
   align-items: center;
   text-align: center;
-  background-color: blue;
   padding: 7rem;
   color: white;
 }
+.rooms-area {
+  background-color: blue;
 
-
-
+}
 .rooms-area button {
   background-color: darkgreen;
   color: white; 
@@ -141,13 +141,17 @@ header {
   background-color: darkgreen;
   color: white;
 }
-.room-options {
+.room-options, .event-options {
   justify-content: center;
   gap: 7rem;
   
 }
-.room {
-  text-align: center;
+.room, .event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  flex: 1;
   color: white;
 }
 .room img {
@@ -155,4 +159,26 @@ header {
   border: 2rem solid white;
   border-radius: 1rem;
 }
+.event-options {
+  flex-wrap: wrap;
+}
+.event-box {
+  background-color: darkgreen;
+}
+.event img {
+  border: 2rem solid blue;
+}
+.event-box button {
+  background-color: gold;
+  color: #5902fa;
+}
+.event-box button:hover {
+  background-color: white;
+}
+.event-box button:active{
+  background-color: gold;
+}
+/* ########## EVENTS STYLES AREA ########## */
+
+
 
