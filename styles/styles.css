@@ -96,9 +96,13 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
-  color: white;
+  /* color: white; */
   text-align: center;
-  background: url(../images/winterLodge.jpg) no-repeat center center;
+  background-image: 
+    linear-gradient(#0007, #0007),
+    url(../images/winterLodge.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
   padding: 30rem 8rem ;
 }
 .header-container {
@@ -109,7 +113,7 @@ header {
   position: absolute;
   top: 5rem;
   right: 5rem;
-  color: black;
+  color: white;
   width: 50rem;
 }
 .header-container button {
