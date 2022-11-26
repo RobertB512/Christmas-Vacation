@@ -135,19 +135,19 @@ header {
   align-items: center;
   text-align: center;
   padding: 7rem;
-  color: white;
+  color: darkblue;
 }
 .rooms-area {
-  background-color: blue;
+  background-color: white;
 
 }
 .rooms-area button {
   background-color: darkgreen;
-  color: white; 
+  color: gold; 
 }
 .rooms-area button:hover {
   background-color: silver;
-  color: darkgreen;
+  color: red;
 }
 .rooms-area button:active {
   background-color: darkgreen;
@@ -156,6 +156,7 @@ header {
 .room-options, .event-options {
   justify-content: center;
   gap: 7rem;
+  flex-wrap: wrap;
   
 }
 .room, .event {
@@ -164,18 +165,18 @@ header {
   align-items: center;
   gap: 3rem;
   flex: 1;
-  color: white;
+  color: darkblue;
 }
 .room img {
   margin-bottom: 3rem;
-  border: 2rem solid white;
+  border: 2rem solid darkgreen;
   border-radius: 1rem;
 }
-.event-options {
+/* .event-options {
   flex-wrap: wrap;
-}
+} */
 .event-box {
-  background-color: darkgreen;
+  background-color: silver;
 }
 .event img {
   border: 2rem solid blue;
@@ -197,8 +198,15 @@ footer {
   gap: 3rem;
   align-items: center;
   padding: 7rem;
+  color: gold;
+  background-color: blue;
 }
-footer-logo {
+footer a {
+  color: gold;
+
+}
+.footer-logo {
+  color: gold;
   font-size: 6rem
 }
 footer ul {
@@ -208,6 +216,7 @@ footer ul {
 .footer-top-links {
   gap: 7rem;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
@@ -219,6 +228,7 @@ footer a:active {
   justify-content: center;
   align-items: center;
   gap: 20rem;
+  flex-wrap: wrap;
 }
 .form-input {
   display: flex;
