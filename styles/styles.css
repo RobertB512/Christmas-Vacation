@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 /* ########## SHARED STYLES ########## */
@@ -44,6 +45,7 @@ h1,
 h2,
 h3{
   line-height: 4.5rem;
+  font-family: 'Nerko One', sans-serif;
 }
 h1 {
   font-size: 5rem;
@@ -74,6 +76,7 @@ nav {
 .logo-img {
   margin: 0 auto;
   font-size: 4rem;
+  font-family: 'Nerko One', sans-serif;
 }
 .right-nav {
   margin-left: auto;
@@ -168,13 +171,11 @@ header {
   color: darkblue;
 }
 .room img {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   border: 2rem solid darkgreen;
   border-radius: 1rem;
 }
-/* .event-options {
-  flex-wrap: wrap;
-} */
+
 .event-box {
   background-color: silver;
 }
@@ -215,6 +216,8 @@ footer ul {
 }
 .footer-top-links {
   gap: 7rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer a:hover {
