@@ -78,12 +78,16 @@ nav {
   font-size: 4rem;
   font-family: 'Nerko One', sans-serif;
 }
-.right-nav {
-  margin-left: auto;
-}
 .nav-links {
   gap: 2rem;
 }
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
 .nav-links a {
   color: white;
 }
@@ -321,6 +325,21 @@ form input[type="submit"]:active {
 }
 
 
+
+
+/* ########## MEDIA QUERIES ########## */
+@media (max-width: 1030px) {
+  nav {
+    flex-direction: column;
+  }
+  .right-nav {
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+ 
+
+}
 
 
 
