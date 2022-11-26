@@ -1,6 +1,5 @@
 # Christmas-Vacation
-Just a practice project to practice my knowledge of html and css. Inspiration and layout are from the DuchBros website.
-
+Just a practice project to practice my knowledge of html and css. Inspiration came from the DuchBros website. Since it's getting colder outside and getting closer to Christmas, it had to be Christmas related!
 
 atributes:
 - Photo a lodge by: [Alison Meeks](https://pixabay.com/users/alisonamg-271138/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1301509) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1301509) 
