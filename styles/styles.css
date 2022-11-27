@@ -116,10 +116,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
-  position: absolute;
+  /* position: absolute;
   top: 5rem;
-  right: 5rem;
+  right: 5rem; */
   color: white;
   width: 50rem;
 }
@@ -211,6 +212,7 @@ footer a {
 
 }
 .footer-logo {
+  text-align: center;
   color: gold;
   font-size: 6rem
 }
@@ -328,8 +330,13 @@ form input[type="submit"]:active {
 
 
 /* ########## MEDIA QUERIES ########## */
+@media (max-width:1435px) {
+  .room:nth-of-type(2) {
+    order: 3;
+  }
+}
 @media (max-width: 1030px) {
-  nav {
+  nav, .connect {
     flex-direction: column;
   }
   .right-nav {
@@ -337,8 +344,44 @@ form input[type="submit"]:active {
     margin: 0 auto;
     gap: 2rem;
   }
- 
 
+  .connect {
+    gap: 5rem;
+  }
+}
+@media (max-width: 700px) {
+  img {
+    max-width: auto;
+    height: 30rem;
+  }
+}
+@media (max-width: 570px) {
+
+  form span,
+  input[type="submit"] {
+    width: 100%;
+  }
+
+  form input[type="email"],
+  form span:before,
+  form input[type="submit"]{
+    display: block;
+    padding: 1rem;
+    margin: 0;
+  }
+  form input[type="email"] {
+    border-radius: 0;
+  }
+  form span:before {
+    border-radius: 1rem 1rem 0 0;
+    text-align: center;
+  }
+  form input[type="submit"] {
+    border-radius: 0 0 1rem 1rem;
+  }
+  footer {
+    text-align: center;
+  }
 }
 
 
