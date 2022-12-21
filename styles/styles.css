@@ -183,7 +183,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   flex: 1;
   color: darkblue;
 }
@@ -326,6 +326,7 @@ form input[type="submit"]:active {
   text-decoration: none;
   gap: 4rem;
 }
+
 .social-img {
   border-radius: 50%;
   height: 3.5rem;
@@ -359,11 +360,9 @@ form input[type="submit"]:active {
   .nav-bottom-row {
     margin: 0;
   }
-  /* .right-nav {
-    flex-direction: row;
-    margin: 0 auto;
-    gap: 2rem;
-  } */
+  .footer-top-links {
+    gap: 3rem;
+  }
 
   .connect {
     gap: 5rem;
@@ -371,7 +370,7 @@ form input[type="submit"]:active {
 }
 @media (max-width: 700px) {
   img {
-    max-width: auto;
+    width: auto;
     height: 30rem;
   }
 }
@@ -404,6 +403,8 @@ form input[type="submit"]:active {
   }
 
 }
+
+
 @media (max-width: 500px) { 
   nav, 
   .list-container, 
@@ -416,8 +417,6 @@ form input[type="submit"]:active {
     width: 100vw;
     z-index: 9999;
   }
-  
-
   .menu-nav-btn {
     visibility: visible;
     border-radius: 0.5rem;
@@ -435,11 +434,47 @@ form input[type="submit"]:active {
     padding: 1rem;
     border-bottom: 0.1rem solid #ffffff;
   }
+  header {
+    padding: 10rem 3rem;
+  }
  
-  
+  .rooms-area,
+  .event-box {
+    padding: 3rem 1rem;
+  }
+
+ .room,
+ .event {
+  /* padding: 1rem; */
+  width: 100%;
+  /* height: auto; */
+  flex: none
+ }
+ 
+ .room img,
+ .event img {
+   width: 100%;
+   height: auto;
+ }
+}
 
 
+@media (max-width: 350px) {
+  .room img {
+    border: 1rem solid darkgreen;
+  }
+  .event img {
+    border: 1rem solid blue;
+  }
+  footer {
+    padding: 2rem 1;
+  }
 
+  .social-links {
+    display: flex;
+    flex-direction: column;
+  }
+ 
 }
 
 
