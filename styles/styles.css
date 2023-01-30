@@ -303,7 +303,9 @@ span:has(input[type="email"]:invalid)::before {
   color: darkred;
 }
 form input[type="submit"] {
+  -webkit-border-radius: 0 9999px 9999px 0;
   border-radius: 0 9999px 9999px 0;
+
   border: none;
   padding: 1rem;
   font-size: 2rem;
@@ -390,14 +392,19 @@ form input[type="submit"]:active {
     margin: 0;
   }
   form input[type="email"] {
+    -webkit-border-radius: 0;
     border-radius: 0;
   }
   form span:before {
+    -webkit-border-radius: 1rem 1rem 0 0;
     border-radius: 1rem 1rem 0 0;
     text-align: center;
   }
   form input[type="submit"] {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0 0 1rem 1rem;
     border-radius: 0 0 1rem 1rem;
+
   }
   footer {
     text-align: center;
