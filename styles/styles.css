@@ -257,7 +257,8 @@ footer a:active {
   flex-direction: column;
   gap: 1rem;
 }
-.connect-form, .connect-social {
+.connect-form, 
+.connect-social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,6 +284,7 @@ form input[type="email"]:focus {
   outline: 0; 
   border: 0.1rem solid blue;
 }
+
 form span:before {
   content: " ";
   /* background-color: #235e6f; */
@@ -342,6 +344,9 @@ form input[type="submit"]:active {
   border: none;
 }
 
+.attributions a {
+  color: darkred;
+}
 
 
 
@@ -352,7 +357,8 @@ form input[type="submit"]:active {
   }
 }
 @media (max-width: 1030px) {
-  nav, .connect {
+  nav, 
+  .connect {
     flex-direction: column;
   }
   .list-container {
@@ -455,25 +461,25 @@ form input[type="submit"]:active {
   header {
     padding: 10rem 3rem;
   }
- 
+
   .rooms-area,
   .event-box {
     padding: 3rem 1rem;
   }
 
- .room,
- .event {
+  .room,
+  .event {
   /* padding: 1rem; */
   width: 100%;
   /* height: auto; */
   flex: none
- }
- 
- .room img,
- .event img {
-   width: 100%;
-   height: auto;
- }
+  }
+
+  .room img,
+  .event img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 
@@ -492,7 +498,6 @@ form input[type="submit"]:active {
     display: flex;
     flex-direction: column;
   }
- 
 }
 
 
