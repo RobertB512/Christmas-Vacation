@@ -21,12 +21,22 @@ ul {
   display: flex;
 }
 button {
+  background-color: darkgreen;
+  color: white; 
+  text-transform: uppercase;
   font-size: 2rem;
+  font-weight: 700;
   display: inline-block;
   padding: 1.5rem 4rem;
   border-radius: 9999px;
   border: none;
   width: fit-content;
+}
+button:hover {
+  background-color: brown;
+}
+button:active {
+  background-color: darkgreen;
 }
 
 
@@ -52,6 +62,10 @@ h1 {
 }
 
 
+h2, h3 {
+  color: navy;
+}
+
 h2 {
   font-size: 4.5rem;
 }
@@ -65,7 +79,7 @@ h4 {
 
 /* ########## NAV STYLES ########## */
 nav {
-  background-color: #f55;
+  background-color: brown;
   color: white;
   align-items: center;
   padding: 1.2rem 5rem;
@@ -138,16 +152,16 @@ header {
   color: white;
   width: 50rem;
 }
-.header-container button {
+/* .header-container button {
   background-color: darkblue;
   color: gold;
-}
-.header-container button:hover {
+} */
+/* .header-container button:hover {
   background-color: blue;
-}
-.header-container button:active {
+} */
+/* .header-container button:active {
   background-color: darkblue;
-}
+} */
 
 /* ########## ROOMS AREA AND EVENTS BOX STYLES ########## */
 .rooms-area, .event-box {
@@ -156,24 +170,24 @@ header {
   align-items: center;
   text-align: center;
   padding: 7rem;
-  color: darkblue;
+  /* color: darkblue; */
 }
 .rooms-area {
   background-color: white;
 
 }
-.rooms-area button {
+/* .rooms-area button {
   background-color: darkgreen;
   color: gold; 
-}
-.rooms-area button:hover {
+} */
+/* .rooms-area button:hover {
   background-color: silver;
   color: red;
-}
-.rooms-area button:active {
+} */
+/* .rooms-area button:active {
   background-color: darkgreen;
   color: white;
-}
+} */
 .room-options, .event-options {
   justify-content: center;
   gap: 7rem;
@@ -186,30 +200,30 @@ header {
   align-items: center;
   gap: 1rem;
   flex: 1;
-  color: darkblue;
+  /* color: darkblue; */
 }
 .room img {
-  margin-bottom: 1rem;
-  border: 2rem solid darkgreen;
-  border-radius: 1rem;
+  margin-bottom: 1em;
+  /* border: 2rem solid darkgreen; */
+  /* border-radius: 1rem; */
 }
 
 .event-box {
-  background-color: silver;
+  background-color: #c0c0c0;
 }
 .event img {
-  border: 2rem solid blue;
+  /* border: 2rem solid blue; */
 }
-.event-box button {
+/* .event-box button {
   background-color: gold;
   color: #5902fa;
-}
-.event-box button:hover {
+} */
+/* .event-box button:hover {
   background-color: white;
-}
-.event-box button:active{
+} */
+/* .event-box button:active{
   background-color: gold;
-}
+} */
 /* ########## FOOTER STYLES AREA ########## */
 footer {
   display: flex;
@@ -217,16 +231,14 @@ footer {
   gap: 3rem;
   align-items: center;
   padding: 7rem;
-  color: gold;
-  background-color: blue;
+  color: white;
+  background-color: navy;
 }
 footer a {
-  color: gold;
-
+  color: white;
 }
 .footer-logo {
   text-align: center;
-  color: gold;
   font-size: 6rem
 }
 footer ul {
@@ -297,7 +309,7 @@ form span:before {
 span:has(input[type="email"]:valid)::before  {
   content: "\2713"; /* checkmark */
   background-color: darkgreen;
-  color: gold;
+  color: white;
 } 
 span:has(input[type="email"]:invalid)::before {
   content: "\2718"; /* x mark */
@@ -311,13 +323,14 @@ form input[type="submit"] {
   border: none;
   padding: 1rem;
   font-size: 2rem;
-  background-color: #1767FF;
+  background-color: darkgreen;
+  color: white;
   margin-left: -0.2rem;
 }
 
 form input[type="submit"]:hover {
-  background-color: darkblue;
-  color: gold;
+  background-color: silver;
+  color: black;
 }
 form input[type="submit"]:active {
   background-color: gold;
@@ -345,7 +358,7 @@ form input[type="submit"]:active {
 }
 
 .attributions a {
-  color: darkred;
+  color: darkgreen;
 }
 
 
